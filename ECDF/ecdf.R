@@ -1,9 +1,11 @@
 
-
+args = commandArgs(trailingOnly = TRUE)
+data_path = args[1]
+print (data_path)
 setwd(
   #  '/home/sunnymh/stat157/final_project'
   # Please enter the directory where this file and data is saved
-  '/home/t-rex/Desktop/stat157/TheQuakers/ECDF'
+  data_path
   )
 
 t250 <- read.csv("./250.csv")
