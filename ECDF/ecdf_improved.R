@@ -12,7 +12,7 @@ setwd(
 
 # Load data
 t250 <- read.csv("./250.csv")
-tnew <- read.csv("./1932_2013_mag_3.5.csv")
+#tnew <- read.csv("./1932_2013_mag_3.5.csv")
 
 # Define a function for plotting inspired by Sunny's code
 plot_ecdf=function (cleandata) {
@@ -118,5 +118,5 @@ png("./ecdfplot_250.png", 600, 1200)
 plot_ecdf(t250)
 dev.off()
 png("ecdfplot_new.png",600,1200)
-plot_ecdf(tnew)
+#plot_ecdf(tnew)
 dev.off()
