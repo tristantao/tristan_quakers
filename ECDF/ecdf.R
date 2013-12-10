@@ -1,4 +1,3 @@
-
 args = commandArgs(trailingOnly = TRUE)
 data_path = args[1]
 print (data_path)
