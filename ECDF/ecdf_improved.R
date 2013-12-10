@@ -1,6 +1,14 @@
+args = commandArgs(trailingOnly = TRUE)
+data_path = args[1]
+print (data_path)
+setwd(
+  #  '/home/sunnymh/stat157/final_project'
+  # Please enter the directory where this file and data is saved
+  data_path
+  )
 
 # Revise the path if necessary
-setwd("~/STAT157/Final")
+#setwd("~/STAT157/Final")
 
 # Load data
 t250 <- read.csv("./250.csv")
