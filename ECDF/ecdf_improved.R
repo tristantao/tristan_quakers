@@ -114,9 +114,9 @@ plot_ecdf=function (cleandata) {
 }
 
 # Call the function to generate plot based on data loaded
-png("./ecdfplot_250.png", 600, 1200)
+png("./plot.png", 600, 1200)
 plot_ecdf(t250)
 dev.off()
-png("ecdfplot_new.png",600,1200)
+#png("ecdfplot_new.png",600,1200)
 #plot_ecdf(tnew)
 dev.off()
